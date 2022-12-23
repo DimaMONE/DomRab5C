@@ -18,8 +18,7 @@ void Check1(int[] a)
 {
     for (int i = 0; i < a.Length; i++)
     {
-       int j = a[i];
-    if (j % 2 == 1)
-        x = x + j;
+    if (i % 2 == 1)
+        x = x + a[i];
     }
 }
